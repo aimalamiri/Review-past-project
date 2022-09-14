@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="form">
+      <form action="#" id="survey-form">
+        <div>
+          <label for="name" id="name-label">Name: </label>
+          <input type="text" id="name" required placeholder="Enter your name"> 
+        </div>
+        <div>
+          <label for="email" id="email-label">Email: </label>
+          <input type="email" id="email" required placeholder="Enter your email">
+        </div>
+        <div>
+          <label for="number" id="number-label">Number: </label>
+          <input type="number" id="number" min="10" max="15" placeholder="Enter your phone number">
+        </div>
+        <div>
+          <label for="dropdown">Country: </label>
+        <select id="dropdown">
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Nigeria">Nigeria</option>
+        </select>
+        </div>
+        <div>
+          <input type="radio" name="gender" value="male">Male 
+          <input type="radio" name="gender" value="female">Female 
+        </div>
+        <div>
+          <input type="checkbox" name="skill" value="js">javascript
+          <input type="checkbox" name="css" value="css">css
+          <input type="checkbox" name="html" value="html">html 
+        </div>
+        <textarea name="comment" id="textarea" cols="30" rows="10" placeholder="comment here.."></textarea>
+        <button id="submit">submit</button>
+      </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
