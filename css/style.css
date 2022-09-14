@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+}
+ h1{
+     text-align: center;
+ }
+p{
+    text-align: center;
+}
+
+input, select, textarea {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #88f;
+}
+
+#survey-form {
+    text-align: center;
+    display: block;
+}
